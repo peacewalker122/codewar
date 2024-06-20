@@ -20,7 +20,7 @@ public:
         return false;
       }
 
-      max(maxreach, i + nums[i]);
+      maxreach = max(maxreach, i + nums[i]);
     }
 
     return maxreach >= nums.size() - 1;
